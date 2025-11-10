@@ -24,7 +24,7 @@ Este é um projeto de uma calculadora simples desenvolvida em Python. O script �
 5.  Execute o script com o seguinte comando:
 
     ```bash
-    python nome_do_arquivo.py
+    python calculadora.py
     ```
 
 6.  Siga as instruções no terminal:
