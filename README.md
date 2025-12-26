@@ -1,42 +1,78 @@
 # 🧮 Calculadora Simples em Python
 
-Este é um projeto de uma calculadora simples desenvolvida em Python. O script é executado diretamente no terminal e permite ao usuário realizar as quatro operações aritméticas básicas (soma, subtração, multiplicação e divisão) de forma contínua.
+Este projeto consiste em uma **calculadora simples desenvolvida em Python**, executada diretamente no terminal.
+Ela permite ao usuário realizar as **quatro operações aritméticas básicas** de forma contínua, com tratamento adequado de erros.
+
+---
 
 ## 🚀 Funcionalidades
 
-  * **Operações Básicas:** Realiza soma (`+`), subtração (`-`), multiplicação (`*`) e divisão (`/`).
-  * **Loop Contínuo:** Após cada operação, o usuário pode escolher se deseja realizar outro cálculo (`s`) ou encerrar o programa (`n`).
-  * **Tratamento de Erros:** O script inclui um robusto tratamento de exceções para:
-      * `ValueError`: Captura entradas que não são números válidos.
-      * `ZeroDivisionError`: Impede que o programa trave ao tentar uma divisão por zero.
-      * **Operador Inválido:** Informa ao usuário se o símbolo da operação não for um dos quatro esperados.
+* ➕➖✖️➗ **Operações básicas**:
+
+  * Soma (`+`)
+  * Subtração (`-`)
+  * Multiplicação (`*`)
+  * Divisão (`/`)
+
+* 🔁 **Loop contínuo**:
+  Após cada cálculo, o usuário pode optar por:
+
+  * Continuar realizando operações (`s`)
+  * Encerrar o programa (`n`)
+
+* 🛡️ **Tratamento de erros**:
+
+  * `ValueError`: captura entradas que não são números válidos
+  * `ZeroDivisionError`: impede divisão por zero
+  * **Operador inválido**: informa quando a operação não é reconhecida
+
+---
 
 ## 🛠️ Como Usar
 
-1.  Certifique-se de ter o [Python 3](https://www.python.org/downloads/) instalado em sua máquina.
+### Pré-requisitos
 
-2.  Clone este repositório ou baixe o arquivo `.py`.
+* Python **3.x** instalado na máquina
 
-3.  Abra seu terminal ou prompt de comando.
+### Passos
 
-4.  Navegue até o diretório onde o arquivo está localizado.
+1. Clone este repositório ou baixe o arquivo `calculadora.py`.
 
-5.  Execute o script com o seguinte comando:
+2. Abra o terminal ou prompt de comando.
 
-    ```bash
-    python calculadora.py
-    ```
+3. Navegue até o diretório onde o arquivo está localizado.
 
-6.  Siga as instruções no terminal:
+4. Execute o script:
 
-      * Digite o primeiro número e pressione Enter.
-      * Digite o segundo número e pressione Enter.
-      * Digite a operação desejada (+, -, \*, /) e pressione Enter.
-      * O resultado será exibido.
-      * Você será perguntado se deseja continuar.
+```bash
+python calculadora.py
+```
+
+*(ou `python3 calculadora.py`, dependendo do seu sistema)*
+
+5. Siga as instruções exibidas no terminal:
+
+   * Digite o primeiro número
+   * Digite o segundo número
+   * Escolha a operação desejada (`+`, `-`, `*`, `/`)
+   * Visualize o resultado
+   * Escolha se deseja continuar ou encerrar
+
+---
 
 ## 💻 Tecnologias Utilizadas
 
-  * **Python 3**
+* Python 3
 
------
+---
+
+## ⭐ Considerações Finais
+
+Este projeto é ideal para **iniciantes em Python**, pois trabalha conceitos essenciais como:
+
+* Entrada e saída de dados
+* Estruturas condicionais
+* Laços de repetição
+* Tratamento de exceções
+
+---
